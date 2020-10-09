@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+body{
+background-color: whitesmoke;
+justify-items: center;
+align-items: center;
+font-size: 15px;
+line-height: 18px;
+font-weight: bold;
+font-family: "Roboto","Arial",'sana-serif';
+}
+.umumiy{
+  background-color: lightskyblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  max-width: 1000px;
+  height: 600px;
+  border: 0.5px solid lightpink;
+  border-radius: 0px 150px 0px 150px;
+}
+.umumiy h2{
+color: darkslategrey;
+font-weight: bold;
+font-size: 30px;
+border: 1px solid red;
+border-radius:8px;
+padding: 10px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+background-color: floralwhite;
+}
+.a-class{
+  border: 2px black solid;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: auto;
+}
+.a-class:active{
+  color: red;
+  background-color: lightgreen;
+  border: 2px red solid;
+}
